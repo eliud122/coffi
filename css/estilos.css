@@ -16,28 +16,28 @@ header {
 /* Barra superior*/
 .top-links-container {
     width: 100%;
-    height: 35px;
+    height: 45px;
     background: #593207;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 25px;
     overflow: hidden;
 }
 
 .top-links {
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
 }
 
 .top-links a {
     color: #ddd;
     text-decoration: none;
-    font-size: 0.8rem;
-    padding: 0 8px;
+    font-size: 1rem;
+    padding: 0 12px;
     border-left: 1px solid #ddd;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .top-links a:first-child {
@@ -46,11 +46,11 @@ header {
 
 .social-links {
     display: flex;
-    gap: 12px;
+    gap: 15px;
 }
 
 .social-icon {
-    height: 16px;
+    height: 20px;
     width: auto;
 }
 
@@ -61,17 +61,17 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 15px 30px;
 }
 
 .logo {
-    height: 60px;
+    height: 80px;
     width: auto;
 }
 
 .navigation-links {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
     align-items: center;
 }
 
@@ -79,22 +79,22 @@ nav a {
     color: #ddd;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 600;
 }
 
 .order-button {
     background-color: #8BC34A;
-    padding: 6px 12px;
-    border-radius: 3px;
+    padding: 8px 16px;
+    border-radius: 4px;
     color: white !important;
     border: 1px solid white;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 /* Carrusel*/
 .carousel-inner {
-    max-height: 400px;
+    max-height: 500px;
     overflow: hidden;
 }
 
@@ -107,16 +107,16 @@ nav a {
 /* Banner*/
 .banner-section img {
     width: 100%;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .content-block {
     display: flex;
-    margin-top: 50px;
+    margin-top: 70px;
     align-items: center;
     justify-content: center;
-    padding: 40px;
-    gap: 9rem;
+    padding: 60px;
+    gap: 12rem;
 }
 
 .content-block-odd {
@@ -129,12 +129,12 @@ nav a {
 }
 
 .content-image img {
-    max-width: 50rem;
+    max-width: 60rem;
     width: 100%;
 }
 
 .content-text {
-    max-width: 800px;
+    max-width: 850px;
 }
 
 .content-text h2 {
